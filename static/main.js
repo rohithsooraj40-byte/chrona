@@ -6,7 +6,7 @@ const standardObjects = {
   moon: {
     name: "Moon",
     kind: "moon",
-    image: "/static/images/moon-galileo.jpg",
+    image: "/static/moon-galileo.jpg",
     position: "center",
     lightYears: 1.3 / SECONDS_IN_YEAR,
     note: "The Moon is close enough that the delay is tiny, but it is still not zero.",
@@ -14,7 +14,7 @@ const standardObjects = {
   sun: {
     name: "Sun",
     kind: "sun",
-    image: "/static/images/sun-sdo.jpg",
+    image: "/static/sun-sdo.jpg",
     position: "center 42%",
     lightYears: (8.3 * 60) / SECONDS_IN_YEAR,
     note: "Sunlight reaches Earth after several minutes, so daylight is already a message from the recent past.",
@@ -22,7 +22,7 @@ const standardObjects = {
   mars: {
     name: "Mars",
     kind: "planet",
-    image: "/static/images/mars-hubble.jpg",
+    image: "/static/mars-hubble.jpg",
     position: "center 42%",
     lightYears: (3.1 * 60) / SECONDS_IN_YEAR,
     note: "Mars changes distance from Earth. This preset uses a close-approach example.",
@@ -30,7 +30,7 @@ const standardObjects = {
   proxima: {
     name: "Proxima",
     kind: "star",
-    image: "/static/images/proxima-hubble.jpg",
+    image: "/static/proxima-hubble.jpg",
     position: "center",
     lightYears: 4.24,
     note: "Proxima Centauri is the nearest known star to the Sun.",
@@ -38,7 +38,7 @@ const standardObjects = {
   sirius: {
     name: "Sirius",
     kind: "star",
-    image: "/static/images/proxima-hubble.jpg",
+    image: "/static/proxima-hubble.jpg",
     position: "center",
     lightYears: 8.6,
     note: "Sirius is one of the brightest stars in Earth's night sky.",
@@ -46,7 +46,7 @@ const standardObjects = {
   milkyway: {
     name: "Galactic Center",
     kind: "star",
-    image: "/static/images/proxima-hubble.jpg",
+    image: "/static/proxima-hubble.jpg",
     position: "center",
     lightYears: 26000,
     note: "The center of the Milky Way is hidden behind dust, but its light and signals still take thousands of years to cross the distance.",
@@ -54,7 +54,7 @@ const standardObjects = {
   lmc: {
     name: "Nearby Galaxy",
     kind: "galaxy",
-    image: "/static/images/andromeda-galex.jpg",
+    image: "/static/andromeda-galex.jpg",
     position: "center",
     lightYears: 160000,
     note: "The Large Magellanic Cloud is a nearby companion galaxy of the Milky Way.",
@@ -62,7 +62,7 @@ const standardObjects = {
   andromeda: {
     name: "Andromeda",
     kind: "galaxy",
-    image: "/static/images/andromeda-galex.jpg",
+    image: "/static/andromeda-galex.jpg",
     position: "center",
     lightYears: 2537000,
     note: "The Andromeda Galaxy is the nearest large spiral galaxy to the Milky Way.",
